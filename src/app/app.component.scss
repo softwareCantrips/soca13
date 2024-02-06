@@ -1,0 +1,44 @@
+.toolbar {
+    height:20%;
+    background-color: #BF55EC;
+}
+
+.biggerbutton {
+    width:  150px!important;
+    height: 100px!important;
+    font-size: 30px!important;
+}
+
+.toolBarButton, .drawerButton {
+    padding: 20px;
+}
+
+.container {
+    height: 80%;
+}
+
+.drawer {
+    background-color: #BF55EC;
+    width: 200px; 
+}
+
+.burger {
+    color: white;
+}
+
+
+@media all and (max-width: 500px) {
+
+    .toolBarButton {
+        display: none;
+    }
+
+    .toolbar {
+        height:5%;
+    }
+
+    .container {
+        height: 95%;
+    }
+
+}
